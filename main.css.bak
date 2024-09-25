@@ -1,10 +1,10 @@
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
+    background: #fef246;
 }
 .navbar {
-    background:#6ab446;
+    background:#0116bf;
 }
 .nav-link,
 .navbar-brand {
@@ -20,3 +20,113 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
+.header {
+    background-image: url("background_image.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top:45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #6ab446;
+}
+.description p {
+	color: #fff;
+	front-size: 1.3rem;
+	line-height;
+}
+.description button {
+	border:1px solid #6ab446;
+	background:#6ab446;
+	border-radius: 0;
+	color:#000;
+}
+.features {
+	margin: 4em auto;
+	padding 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1,3rem;
+	font-weight:700;
+	margin-bottom: 20px;
+	text_transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4)
+	margin-bottom: 16px;
+}
+.features .form-control,
+.features input {
+	border-radius: 0;
+	margin-top: 10px;
+}
+.features .btn {
+	background-color: #0116bf;
+	border: 1px solid #0116bf;
+	color: #fff;
+	margin-top: 20px;
+}
+.features .btn:hover {
+	background-color:#333;
+	border: 1px solid #333;
+}
+.background {
+	background: #0116BF;
+	padding: 2em 0;
+	text-align: center;
+}
+.background .feature-title {
+	display: inline-block;
+	position: relative;
+	color: #FEF246;
+	font-size: 2.5rem;
+	font-weight:700;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.background .feature-title::after{
+	content: "";
+	position: absolute;
+	bottom: -2px; /* Sets gap between underline and text */
+	left: -5%; /* Sets left and right side overhangs relative to text length */
+	right: 5%; /* Sets left and right side overhangs relative to text length. (Both negative seems wrong to me but works correct) */
+	height: 5px; /* Sets thickness of underline */
+	background-color: #FEF246;
+}
+.team {
+	color: #fef246;
+	padding: 10 0px;
+}
+.team .card_columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	background: none;
+	border: none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+	
