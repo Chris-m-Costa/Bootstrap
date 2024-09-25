@@ -107,7 +107,7 @@ body {
 	position: absolute;
 	bottom: -2px; /* Sets gap between underline and text */
 	left: -5%; /* Sets left and right side overhangs relative to text length */
-	right: 5%; /* Sets left and right side overhangs relative to text length. (Both negative seems wrong to me but works correct) */
+	right: -5%; /* Sets left and right side overhangs relative to text length. (Both negative seems wrong to me but works correct) */
 	height: 5px; /* Sets thickness of underline */
 	background-color: #FEF246;
 }
@@ -129,4 +129,139 @@ body {
 	margin-bottom: 0;
 	text-transform: uppercase;
 }
-	
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 30px 0 30px;
+}
+.footer-copyright {
+	color: #666;
+	padding: 20px 5px;
+}
+
+
+#demo-modal .modal-content {
+	border-radius: 0;
+	padding: 2rem;
+	background-color: #0116bf;
+	opacity: 1;
+}
+#demo-modal .modal-header {
+	border-bottom: none;
+}
+#demo-modal h4 {
+	color: #fef246;
+	font-size: 30px;
+	margin: 0 0 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#demo-modal .close {
+	background: #000;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 19px;
+	font-weight: normal;
+	height: 30px;
+	opacity: 0.5;
+	padding: 0;
+	position: absolute;
+	right: 26px;
+	text-align: center;
+	top: 26px;
+	width: 30px;
+}
+#demo-modal .close span {
+	position: relative;
+	top: -3px;
+}
+#demo-modal .modal-body p {
+	color: #999;
+}
+#demo-modal .input-group {
+	display: flex;
+	align-items: center;
+}
+
+#demo-modal .form-control {
+	border-radius: 0;
+	margin-right: 0;
+	min-height: 46px;
+}
+
+#demo-modal .btn {
+	border-radius: 0;
+	height: 46px;
+	padding: 0 20px;
+	background-color: #ff0000;
+	border: none;
+	color: #fef246;
+	min-width: 150px;
+	transition: all 0.4s;
+	align-self: flex-start;
+	/* margin-top: 10px;  */
+}
+
+#demo-modal .btn:hover,
+#demo-modal .btn:focus{
+	background-color: #12968d;
+}
+
+
+
+
+
+
+/* #demo-modal .modal-content { */
+    /* border-radius: 0; */
+    /* padding: 2rem; */
+/* } */
+/* #demo-modal .modal-header { */
+    /* border-bottom: none; */
+/* } */
+/* #demo-modal h4 { */
+    /* color: #000; */
+    /* font-size: 30px; */
+    /* margin: 0 0 25px; */
+    /* font-weight: bold; */
+    /* text-transform: capitalize; */
+/* } */
+/* #demo-modal .close { */
+    /* background: #c0c3c8; */
+    /* border-radius: 50%; */
+    /* color: #fff; */
+    /* font-size: 19px; */
+    /* font-weight: normal; */
+    /* height: 30px; */
+    /* opacity: 0.5; */
+    /* padding: 0; */
+    /* position: absolute; */
+    /* right: 26px; */
+    /* text-align: center; */
+    /* top: 26px; */
+    /* width: 30px; */
+/* } */
+/* #demo-modal .close span { */
+    /* position: relative; */
+    /* top: -3px; */
+/* } */
+/* #demo-modal .modal-body p { */
+    /* color: #999; */
+/* } */
+/* #demo-modal .form-control, */
+/* #demo-modal .btn { */
+    /* min-height: 46px; */
+/* } */
+/* #demo-modal .btn { */
+    /* background-color: #1da098; */
+    /* border: none; */
+    /* color: #fff; */
+    /* min-width: 150px; */
+    /* transition: all 0.4s; */
+/* } */
+/* #demo-modal .btn:hover, */
+/* #demo-modal .btn:focus { */
+    /* background-color: #12968d; */
+/* } */
+
+
